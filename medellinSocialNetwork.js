@@ -39,7 +39,7 @@ angular.module( 'medellinSocialNetworkApp' , [])
           $scope.comentarioList.pop();
           response.data.comentarios.forEach(function(el){
               console.log(el);
-              $scope.comentarios.push(el);
+              $scope.comentarioList.push(el);
           });
       }, (response) => {
           console.log("Error en servicio o llamado a servicio! /comentario");
