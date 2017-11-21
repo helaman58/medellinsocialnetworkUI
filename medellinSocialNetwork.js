@@ -37,7 +37,7 @@ angular.module( 'medellinSocialNetworkApp' , [])
 
 			$http(getComentario).then( (response) => {
           $scope.comentarioList.pop();
-          response.data.publicaciones.forEach(function(el){
+          response.data.comentarios.forEach(function(el){
               console.log(el);
               $scope.publicacionList.push(el);
           });
