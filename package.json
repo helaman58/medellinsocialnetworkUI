@@ -1,0 +1,24 @@
+{
+  "name": "medellinsocialnetworkui",
+  "version": "1.0.0",
+  "description": "Proyecto en angular para consumir WS basados en REST.",
+  "main": "angular.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helaman58/medellinsocialnetworkUI.git"
+  },
+  "keywords": [
+    "angularjs",
+    "javascript",
+    "rest"
+  ],
+  "author": "Nicolas Caballero Ortega",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/helaman58/medellinsocialnetworkUI/issues"
+  },
+  "homepage": "https://github.com/helaman58/medellinsocialnetworkUI#readme"
+}
