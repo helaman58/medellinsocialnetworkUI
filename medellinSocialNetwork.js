@@ -1,5 +1,5 @@
-angular.module('medellinSocialNetworkApp', [])
-	.controller('TodoListController', function() {
+angular.module( 'medellinSocialNetworkApp' , [])
+	.controller( 'TodoListController' , function() {
     var todoList = this;
     todoList.todos = [
       {text:'learn AngularJS', done:true},
