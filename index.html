@@ -82,12 +82,28 @@
 							<p>{{comentarioList.fecha}}</p>
 						</div>
 					</section>
-									<div>
-									    <label>Name:</label>
-									    <input type="text" ng-model="yourName" placeholder="Enter a name here">
-									    <hr>
-									    <h1>Hello {{yourName}}!</h1>
-								  </div>
+					<section class="spotlight"  ng-if="(newComment==='')?false:true">
+						<div class="image"><img src="images/pic01.jpg" alt="" /></div>
+						<div class="content">
+							<p>Pepito</p>
+							<h3>{{newComment}}</h3>
+							<p>2017-11-21</p>
+						</div>
+					</section>
+					<div>
+							<form ng-submit="crearNuevoComentario()">
+					    		<table>
+											<tr>
+													<td>
+															<input type="text" ng-model="newComment" placeholder="New comment...">
+													</td>
+													<td>
+															<input class="btn-primary" type="submit" value="Aceptar">
+													</td>
+											</tr>
+									</table>
+							</form>
+				  </div>
 <!--
 					<section class="spotlight">
 						<div class="image"><img src="images/pic02.jpg" alt="" /></div>
